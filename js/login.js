@@ -6,6 +6,10 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     //get the password inside the input field
     const passField=document.getElementById('pass-field');
     const pass=passField.value;
-    console.log(pass)
+    if(email==="trisha@gmail.com" && pass==="secret"){
+        window.location.href='bank.html';
+    }else{
+        alert('Invalid user')
+    }
 
 })
